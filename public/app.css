@@ -1,61 +1,58 @@
-body { 
+/*$body {
 	padding-top: 75px;
 	}
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
-	color: #ffffff;
-    background-color: #222;
-}
-.nav-justified>li>a{
+
+$nav-justified>li>a{
 	color: #d9dad9;
 }
-.nav-justified>li>a:hover{
+$nav-justified>li>a:hover{
 	color: #ffffff;
 	background-color: #222;
 }
-.nav {
+$nav {
     padding-left: 0;
-    /* margin-bottom: 20px; */
+    *//* margin-bottom: 20px; *//*
     list-style: none;
 }
-.ms-header{
-	/* background-color: #4f9a20;
-    border-color: #36750e; */
+$ms-header{
+	*//* background-color: #4f9a20;
+    border-color: #36750e; *//*
     color: #ffffff;
 }
 
 
-/* Sticky footer styles
--------------------------------------------------- */
+*//* Sticky footer styles
+-------------------------------------------------- *//*
 html {
   position: relative;
   min-height: 100%;
 }
 body {
-  /* Margin bottom by footer height */
+  *//* Margin bottom by footer height *//*
   margin-bottom: 60px;
 }
-.footer {
+$footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  /* Set the fixed height of the footer here */
+  *//* Set the fixed height of the footer here *//*
   height: 60px;
   background-color: #f6f9f2;
 }
 
 
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
+*//* Custom page CSS
+-------------------------------------------------- *//*
+*//* Not required for template or sticky footer method. *//*
 
-/* body > .container {
+*//* body > .container {
   padding: 60px 15px 0;
-} */
+} *//*
 .container .text-muted {
   margin: 20px 0;
 }
 
-.footer > .container {
+$.footer > .container {
   padding-right: 15px;
   padding-left: 15px;
   text-align: center;
@@ -72,11 +69,7 @@ code {
 .carousel-inner {
 	height: 120px;
 }
-.jumbotron {
-	padding-bottom: 30px; 
-	padding-top: 20px;
-	/* background-color: #f6f9f6; */
-}
+
 .carousel-indicators {
     bottom: -40px;
 }
@@ -95,11 +88,9 @@ code {
     border-radius: 10px;
 }
 
-.logo-margin {
-	margin-top: 25px;
-}
 
-.heading-color{
+
+$.heading-color{
 	color: #7a0000;
 }
 .glow-button:hover {
@@ -107,7 +98,67 @@ code {
  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
 
-.gray-lg{
+$.gray-lg{
     color: #8f8f90;
     font-size: 36px;
+}*/
+
+/*
+    Custom bootstrap styles
+*/
+
+.white-text {
+    color: #ffffff !important;
+    font-size: 14px;
 }
+
+.navbar {
+    padding: 0rem .5rem !important;
+}
+
+.nav-link>a, .nav-link>a:focus, .nav-link>a:hover{
+	color: #ffffff !important;
+    font-size: 18px;
+}
+
+.nav-link>a:hover{
+	color: #ffffff !important;
+	background: #575858;
+    font-size: 18px;
+}
+
+.row {
+    width: 100% !important;
+}
+
+.logo-margin {
+	margin-top: 25px;
+}
+
+.jumbotron {
+	padding-bottom: 30px !important;
+	padding-top: 20px !important;
+	/* background-color: #f6f9f6; */
+}
+
+.carousel-content {
+    color:black;
+    display:flex;
+    align-items:center;
+}
+.carousel-inner {
+	height: 120px !important;
+}
+
+.carousel-indicators {
+    bottom: -40px !important;
+}
+.carousel-control-prev, .carousel-control-next {
+    display: none !important;
+}
+.carousel-indicators li {
+    color: #7a0000 !important;
+    background-color: #7a0000 !important;
+}
+
+@import "~bootstrap/scss/bootstrap";
