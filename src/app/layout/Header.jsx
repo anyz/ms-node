@@ -4,16 +4,12 @@ import SubHeader from "./SubHeader";
 
 import {
     Container,
-    Navbar,
     Nav, Row, Col, Image
     } from 'react-bootstrap';
 
 import { currentDate } from "../../app/Functions";
 
 const Header = (props) => {
-    const {
-        section
-    } = props;
 
     return(
         <div>

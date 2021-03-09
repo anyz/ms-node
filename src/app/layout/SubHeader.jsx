@@ -1,10 +1,8 @@
 import React from "react";
-import * as PropTypes from "prop-types";
 
 import {
     Container,
-    Navbar,
-    Nav, Row, Col, Image, Jumbotron, Carousel
+    Row, Col, Image, Jumbotron, Carousel
     } from 'react-bootstrap';
 
 const SubHeader = () => {
