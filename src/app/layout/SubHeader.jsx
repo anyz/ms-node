@@ -15,7 +15,7 @@ const SubHeader = () => {
                     <Image src="images/ms-logo-4.png" height="65px" width="185px" alt="Masjid Sahabah" />
                     </Col>
                     <Col md={9}>
-                        <Carousel pauseOnHover={true}>
+                        <Carousel pauseOnHover={true} className="subheader-carousel">
                             <Carousel.Item>
                                 <h3 className="heading-color">Easier than ever to fulfill the most important commandment
                                     of Allah</h3>

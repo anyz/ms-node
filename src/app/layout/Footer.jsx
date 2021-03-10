@@ -7,9 +7,13 @@ import {
 
 const Footer = () => {
     return(
-            <div className="footer">
-                &copy; { currentYear() } <a href='http://www.masjidsahabah.com'>masjidsahabah.com</a> All rights reserved.
-            </div>
+        <div className="footer">
+        	&copy; { currentYear() } <a href='http://www.masjidsahabah.com'>masjidsahabah.com</a> All rights reserved.
+
+        	<p>
+        		14225 University Ave # 270, Waukee, IA 50263
+        	</p>
+        </div>
     );
 };
 

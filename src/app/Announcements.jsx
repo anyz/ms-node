@@ -21,7 +21,7 @@ const Announcements = (props) => {
                 </Card.Header>
                 <Card.Body>
                     <h5>Iqama Times - { currentMonth() } </h5>
-                    <Table hover bordered>
+                    <Table hover bordered size="sm" responsive>
                         <thead>
                         <tr>
                             <th>Start Date</th>
