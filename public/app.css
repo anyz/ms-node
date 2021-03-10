@@ -144,8 +144,15 @@ $.gray-lg{
     display:flex;
     align-items:center;
 }
-.carousel-inner {
-	height: 120px !important;
+.future-carousel {
+    height: 25  0px !important;
+}
+.future-carousel-body-content {
+    width: 80% !important;
+}
+.future-carousel-body {
+    display: flex !important;
+    justify-content: center !important;
 }
 
 .carousel-indicators {

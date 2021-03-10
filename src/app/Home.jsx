@@ -6,7 +6,7 @@ import Location from "./Location";
 import Future from "./Future";
 
 import {
-    Card
+    Card, Container
     } from 'react-bootstrap';
 
 
@@ -14,6 +14,7 @@ const Home = (props) => {
 
     return(
     <MainContainer>
+        <Container>
             <Card>
                 <Card.Header>
                     Assalaamualaikum WRWB
@@ -28,6 +29,7 @@ const Home = (props) => {
 
                 </Card.Body>
             </Card>
+        </Container>
         <Future />
         <Announcements />
         <ExternalAnnouncements />

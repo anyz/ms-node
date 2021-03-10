@@ -8,28 +8,46 @@ import {
 const Future = (props) => {
 
     return(
+        <Container>
             <Card>
                 <Card.Header>
                     Future Plans
                 </Card.Header>
-                <Card.Body>
-                    <Carousel pauseOnHover={true}>
+                <Card.Body className="future-carousel-body">
+                    <div className="future-carousel-body-content">
+                    <Carousel pauseOnHover={true} className="future-carousel">
                         <Carousel.Item>
-                            <h3 className="heading-color">Easier than ever to fulfill the most important commandment
-                                of Allah</h3>
-                            <span>The masjid is within 5 to 10 mins of driving distance from the surrounding community and observes all five prayers daily.</span>
+                            <Image src="images/slides/slide1.png" alt="Masjid Sahabah" />
                         </Carousel.Item>
                         <Carousel.Item>
-                            <h3 className="heading-color">Preparing our next generation</h3>
-                            <span>The masjid offers weekly Islamic teachings to girls between the ages 5 to 8 every Sunday</span>
+                            <Image src="images/slides/slide2.png" alt="Masjid Sahabah" />
                         </Carousel.Item>
                         <Carousel.Item>
-                            <h3 className="heading-color">Generation of Islamic Scholars and Huffaz</h3>
-                            <span>Coming very soon the school for boys offering classes of Islamic Studies and Nazera &amp; Hifz</span>
+                            <Image src="images/slides/slide3.png" alt="Masjid Sahabah" />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <Image src="images/slides/slide4.png" alt="Masjid Sahabah" />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <Image src="images/slides/slide5.png" alt="Masjid Sahabah" />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <Image src="images/slides/slide6.png" alt="Masjid Sahabah" />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <Image src="images/slides/slide7.png" alt="Masjid Sahabah" />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <Image src="images/slides/slide8.png" alt="Masjid Sahabah" />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <Image src="images/slides/slide9.png" alt="Masjid Sahabah" />
                         </Carousel.Item>
                     </Carousel>
+                    </div>
                 </Card.Body>
             </Card>
+        </Container>
     );
 };
 
