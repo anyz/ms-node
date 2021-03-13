@@ -1,19 +1,14 @@
 import React from "react";
-import * as PropTypes from "prop-types";
 import SubHeader from "./SubHeader";
-import { Link } from 'react-router-dom';
 
 import {
-    Container,
-    Nav, Row, Col, Image, Navbar
+    Row, Col, Image, Navbar
     } from 'react-bootstrap';
-
-import { currentDate } from "../../app/Functions";
 
 const Header = (props) => {
 
     return(
-        <div>
+        <div className="main-header">
             <div className="bg-dark navbar">
             <Row>
                 <Col className="ms-header-col">
@@ -22,7 +17,7 @@ const Header = (props) => {
             </Row>            
             </div>
 
-                <Navbar collapseOnSelect bg="dark" expand="lg">
+                <Navbar collapseOnSelect bg="dark" expand="lg" sticky="top">
                 <Navbar.Brand>
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"
                           className="donateForm">
@@ -32,7 +27,7 @@ const Header = (props) => {
                                className="btn btn-danger glow-button"/>
                     </form>                            
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
 
                     <Nav fill className="mr-auto">
@@ -53,7 +48,7 @@ const Header = (props) => {
                         </Nav.Item>
                     </Nav>
 
-                </Navbar.Collapse>
+                </Navbar.Collapse> */}
                 </Navbar> 
 
             <SubHeader />
@@ -61,8 +56,5 @@ const Header = (props) => {
     );
 };
 
-Header.propTypes = {
-    section: PropTypes.string.isRequired
-};
 
 export default Header;

@@ -2,7 +2,7 @@ import React from "react";
 
 import {
     Container,
-    Row, Col, Image, Carousel, Card
+    Image, Carousel, Card
     } from 'react-bootstrap';
 
 const Future = (props) => {
@@ -15,7 +15,7 @@ const Future = (props) => {
                 </Card.Header>
                 <Card.Body className="future-carousel-body">
                     <div className="future-carousel-body-content">
-                    <Carousel pauseOnHover={true} className="future-carousel">
+                    <Carousel className="future-carousel">
                         <Carousel.Item>
                             <Image src="images/slides/slide1.png" alt="Masjid Sahabah" />
                         </Carousel.Item>

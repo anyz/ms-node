@@ -1,6 +1,5 @@
 import React from "react";
 import Iqama from "./Iqama";
-import {map} from "lodash";
 import iqamaTimes from '../.../../data/iqama.json';
 import { processIqama } from "../app/Functions";
 
@@ -24,7 +23,7 @@ const Announcements = (props) => {
                     <Table hover bordered size="sm" responsive>
                         <thead>
                         <tr>
-                            <th>Start Date</th>
+                            <th>Date</th>
                             <th>Fajr</th>
                             <th>Zuhr</th>
                             <th>Asr</th>
@@ -33,7 +32,7 @@ const Announcements = (props) => {
                         </tr>
                         </thead>
                         <tbody>
-                            {map(itimes, (tableRow) =>  <Iqama key={tableRow.labelDate} iqamaRow={tableRow}/> )}
+                            {itimes.map((itime, index) =>  <Iqama key={index} iqamaRow={itime}/> )}
                         </tbody>
                     </Table>
 

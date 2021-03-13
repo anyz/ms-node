@@ -64,7 +64,7 @@ export const processIqama = (array) => {
 };
 
 export const prepareRow = (obj, labelDate) => {
-    obj.id = uniqueId('input-');
+    obj.id = uniqueId('input-'+labelDate);
     obj.labelDate = labelDate;
     return obj;
 };
