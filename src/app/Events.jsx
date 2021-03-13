@@ -4,11 +4,11 @@ import {
     Image, Carousel
     } from 'react-bootstrap';
 
-const Future = (props) => {
+const Events = (props) => {
 
     return(
         <div className="section">
-            <h3 className="section-header">Future Plans</h3>
+            <h3 className="section-header">Events</h3>
             <div className="future-carousel-body-content">
                     <Carousel className="future-carousel">
                         <Carousel.Item>
@@ -39,9 +39,9 @@ const Future = (props) => {
                             <Image src="images/slides/slide9.png" alt="Masjid Sahabah" />
                         </Carousel.Item>
                     </Carousel>
-                    </div>
+            </div>
         </div>
     );
 };
 
-export default Future;
+export default Events;

@@ -8,6 +8,9 @@
     font-weight: 500 !important;
     background-color: #eee !important;
 }
+.section {
+    margin-bottom: 45px;
+}
 .white-text {
     color: #ffffff !important;
     font-size: 14px;
@@ -35,6 +38,7 @@
 .logo-margin {
     display: flex;
     justify-content: center;
+    margin-bottom: 10px !important;
 }
 
 .jumbotron {
@@ -66,7 +70,10 @@
 .carousel-indicators {
     bottom: -40px !important;
 }
-.carousel-control-prev, .carousel-control-next {
+/* .carousel-control-prev, .carousel-control-next {
+    display: none !important;
+} */
+.carousel-indicators {
     display: none !important;
 }
 .carousel-indicators li {
