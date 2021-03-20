@@ -6,7 +6,6 @@
     font-size: 1.25rem !important;
     color: #7a0000 !important;
     font-weight: 500 !important;
-    background-color: #eee !important;
 }
 .section {
     margin-bottom: 45px;
@@ -45,41 +44,13 @@
 	padding-bottom: 30px !important;
 	padding-top: 20px !important;
 	background-color: #eee !important;
+    margin-bottom: 1rem  !important;
 }
 
 .subheader-carousel {
     height: 100px !important;
 }
 
-.carousel-content {
-    color:black;
-    display:flex;
-    align-items:center;
-}
-.future-carousel {
-    height: 25  0px !important;
-}
-.future-carousel-body-content {
-    width: 80% !important;
-}
-.future-carousel-body {
-    display: flex !important;
-    justify-content: center !important;
-}
-
-.carousel-indicators {
-    bottom: -40px !important;
-}
-/* .carousel-control-prev, .carousel-control-next {
-    display: none !important;
-} */
-.carousel-indicators {
-    display: none !important;
-}
-.carousel-indicators li {
-    color: #7a0000 !important;
-    background-color: #7a0000 !important;
-}
 .heading-color{
 	color: #7a0000;
 }
@@ -112,4 +83,5 @@ body{
 .main-header{
     height: 100% !important;
 }
+
 @import "~bootstrap/scss/bootstrap";

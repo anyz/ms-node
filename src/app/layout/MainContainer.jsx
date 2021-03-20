@@ -15,9 +15,9 @@ const MainContainer = (props) => {
     return (
     <div>
         <Header />
-        <Container>
-            {children}
-        </Container>
+            <Container>
+                {children}
+            </Container>
         <Footer />
     </div>
     );

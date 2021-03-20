@@ -18,7 +18,7 @@ const Home = (props) => {
                             href="http://www.chicagohilal.org" target="_chicagohilal">www.chicagohilal.org</a>).</p>
                     <p/>
                     <p>JazakAllahu Khayran</p>
-        </div>            
+        </div> 
         <Future />
         <Announcements />
         <ExternalAnnouncements />

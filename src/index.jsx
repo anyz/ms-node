@@ -1,13 +1,12 @@
 import React from 'react';
-import {render} from 'react-dom';
+import ReactDOM from 'react-dom';
+import Home from "./app/Home";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import router from "./router";
-
-render(
-    <>
-        {router}
-    </>,
+ReactDOM.render(
+    <React.StrictMode>
+    <Home />
+  </React.StrictMode>,
     document.getElementById('root')
 );

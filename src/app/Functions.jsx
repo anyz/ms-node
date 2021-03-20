@@ -37,19 +37,20 @@ export const endDate = () => {
 export const processIqama = (array) => {
     var sDate = startDate();
     var eDate = endDate();
-	var date = moment(new Date());
+    var todaysDate = new Date();
+	var date = moment(todaysDate);
 	var firstMonthCounter = date.format('MM').toLocaleString();
 	var firstHalfCounter = "1";
 	var secondMonthCounter=firstMonthCounter;
 	var secondHalfCounter = "2";
 
-    if((new Date()).getDate() > 15){
-        var newDate = moment(new Date(date.getFullYear(), date.getMonth()+1, 1));
+    if(todaysDate.getDate() > 15){
+        var newDate = moment(new Date(todaysDate.getFullYear(), todaysDate.getMonth()+1, 1));
         secondMonthCounter = newDate.format('MM').toLocaleString();
-        firstHalfCounter = 2;
-        secondHalfCounter = 1;
+        firstHalfCounter = "2";
+        secondHalfCounter = "1";
     }
-
+   
     var timeArr = [];
 
     forEach(array, (el) => {
