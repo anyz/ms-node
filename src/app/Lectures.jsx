@@ -8,9 +8,9 @@ const Lectures = (props) => {
                 <iframe className="youtube-iframe"
                     src="https://www.youtube.com/embed/TLeXJ-kw6JY" 
                     title="Friday Lecture" 
-                    frameborder="0" 
+                    frameBorder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen></iframe>
+                    allowFullScreen></iframe>
                     
             </div>
         </div>
