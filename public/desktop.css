@@ -79,9 +79,57 @@ body{
   padding-right: 15px;
   padding-left: 15px;
   text-align: center;
+  font-size: 0.5rem;
 }
 .main-header{
     height: 100% !important;
 }
 
+.youtube-div {
+    position: relative !important;
+    padding-bottom: 15.25% !important; /* 16:9 */
+    padding-top: 25 !important;
+    height: 0 !important;
+}
+.youtube-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 560;
+    height: 315;
+}
+.container {
+    width: 800px i !important;
+}
+
+.subheader-carousel {
+    height: 100px !important;
+}
+
+.carousel-content {
+    color:black;
+    display:flex;
+    align-items:center;
+}
+.future-carousel-body-content {
+    width: 80% !important;
+}
+.future-carousel-body {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.future-carousel {
+    height: 25  0px !important;
+}
+.carousel-indicators {
+    bottom: -40px !important;
+}
+.carousel-control-prev, .carousel-control-next {
+    display: none !important;
+}
+.carousel-indicators li {
+    color: #7a0000 !important;
+    background-color: #7a0000 !important;
+}
 @import "~bootstrap/scss/bootstrap";

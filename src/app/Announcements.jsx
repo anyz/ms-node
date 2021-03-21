@@ -33,7 +33,7 @@ const Announcements = (props) => {
                     </Table>
 
                     <div id="twitterfeed">
-                        <a class="twitter-timeline" data-width="50%" data-height="200px" data-chrome="nofooter noheader"
+                        <a className="twitter-timeline" data-width="50%" data-height="200px" data-chrome="nofooter noheader"
                            href="https://twitter.com/sahabahservices"
                            data-tweet-limit="1">
                             Tweets by @sahabahservices</a>

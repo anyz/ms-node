@@ -4,6 +4,8 @@ import Announcements from "./Announcements";
 import ExternalAnnouncements from "./ExternalAnnouncements";
 import Location from "./Location";
 import Future from "./Future";
+import Lectures from "./Lectures";
+import Programs from "./Programs";
 
 
 const Home = (props) => {
@@ -22,6 +24,8 @@ const Home = (props) => {
         <Future />
         <Announcements />
         <ExternalAnnouncements />
+        <Lectures />
+        <Programs />
         <Location />
     </MainContainer>
     );
