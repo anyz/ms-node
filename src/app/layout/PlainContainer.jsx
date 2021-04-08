@@ -1,13 +1,18 @@
 import React from "react";
-import SubHeader from "./SubHeader";
+import Footer from "./Footer";
 
 import {
-    Row, Col, Image, Navbar, Nav
+    Container, Row, Col, Image, Navbar, Nav, Jumbotron
     } from 'react-bootstrap';
 
-const Header = (props) => {
+const PlainContainer = (props) => {
 
-    return(
+    const {
+        children
+    } = props;
+
+    return (
+    <div>
         <div className="main-header">
             <div className="bg-dark navbar">
             <Row>
@@ -18,15 +23,6 @@ const Header = (props) => {
             </div>
 
                 <Navbar collapseOnSelect bg="dark" expand="lg" sticky="top">
-                <Navbar.Brand>
-                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"
-                          className="donateForm">
-                        <input type="hidden" name="cmd" value="_s-xclick"/>
-                        <input type="hidden" name="hosted_button_id" value="NWWTRPY5NF8T8"/>
-                        <input type="submit" name="submit" value="Donate Now!" alt="Donate Now"
-                               className="btn btn-danger glow-button"/>
-                    </form>                            
-                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
 
@@ -42,10 +38,20 @@ const Header = (props) => {
                 </Navbar.Collapse> 
                 </Navbar> 
 
-            <SubHeader />
         </div>
+            <Jumbotron>
+                <Row>
+                    <Col md={3} className="logo-margin">
+                    <Image src="images/ms-logo-4.png" height="65px" width="185px" alt="Masjid Sahabah" />
+                    </Col>
+                </Row>
+            </Jumbotron>
+            <Container>
+                {children}
+            </Container>
+        <Footer />
+    </div>
     );
 };
 
-
-export default Header;
+export default PlainContainer;
