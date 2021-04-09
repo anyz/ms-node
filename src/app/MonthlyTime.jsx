@@ -3,7 +3,7 @@ import {
     Table
     } from 'react-bootstrap';
 
-const Iqama = (props) => {
+const MonthlyTime = (props) => {
 
     return(
     <>
@@ -394,4 +394,4 @@ const Iqama = (props) => {
 
 };
 
-export default Iqama;
+export default MonthlyTime;

@@ -7,7 +7,7 @@ const Programs = (props) => {
             <h6>Current Programs</h6>
             <div id="currentPrograms"> 
                 <p>Alhumdulillah for the last 5 years the following programs and activities haven 
-                    been conducting in a very limited rented office space (11000 sq ft)</p>
+                    been conducting in a very limited rented office space (1100 sq ft)</p>
             </div>        
             <h6>Educational Programs</h6>
             <div>
