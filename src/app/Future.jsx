@@ -53,9 +53,12 @@ const Future = (props) => {
 					<li>Funeral services space</li>
 					<li>Parking Lot</li>  
 				</ul>
-                <p>To accommodate the Islamic needs of Muslims we purchased a land of 0.94 Acre. Architectural plans for the construction are
-                        in progress and are being finalized.
-                    </p>                
+                
+                <h6>Current status</h6> 
+                <ul>
+                    <li>Alhamdulillah, land purchase is complete and City Council approval has been received.</li>    
+                    <li>Architectural and design process is in progress. Inshallah ground breaking will happen later in 2021</li>
+                </ul>
 			</div>           
         </div>
     );

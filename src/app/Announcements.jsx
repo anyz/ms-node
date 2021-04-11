@@ -1,6 +1,5 @@
 import React from "react";
 import Iqama from "./Iqama";
-import MonthlyTime from "./MonthlyTime";
 import iqamaTimes from '../.../../data/iqama.json';
 import { processIqama } from "../app/Functions";
 
@@ -33,20 +32,9 @@ const Announcements = (props) => {
                         </tbody>
                     </Table>
 
-                    <Accordion defaultActiveKey="0">
-                         <Card>
-                            <Card.Header>
-                            <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                                Monthly Calander
-                            </Accordion.Toggle>
-                            </Card.Header>
-                            <Accordion.Collapse eventKey="1">
-                            <Card.Body>
-                                <MonthlyTime />
-                            </Card.Body>
-                            </Accordion.Collapse>
-                        </Card>
-                    </Accordion>
+                    <p>
+                        For monthly calander please visit: <a href="https://www.islamicfinder.org/prayer-times/#monthly" target='_blank'>Monthly Calander</a>
+                    </p>
 
                     <div id="twitterfeed">
                         <a className="twitter-timeline" data-width="50%" data-height="200px" data-chrome="nofooter noheader"

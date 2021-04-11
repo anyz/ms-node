@@ -6,7 +6,7 @@ const Programs = (props) => {
             <h3 className="section-header">Programs</h3>
             <h6>Current Programs</h6>
             <div id="currentPrograms"> 
-                <p>Alhumdulillah for the last 5 years the following programs and activities haven 
+                <p>Alhumdulillah for the last 8 years the following programs and activities haven 
                     been conducting in a very limited rented office space (1100 sq ft)</p>
             </div>        
             <h6>Educational Programs</h6>
@@ -15,7 +15,9 @@ const Programs = (props) => {
                     <li>Learn how to read the Quran with Tajweed (Nazirah)</li>
                     <li>Tajweed - The science of reciting the Quran correctly</li>
                     <li>Memorization of the Quran (Hifz)</li>
-                    <li>Fiqh Classes</li>  
+                    <li>Teenage girls islamic class every week</li>
+                    <li>Children between 8 - 12 islamic learning activities every week</li>
+
                 </ul>
             </div>
         
@@ -27,9 +29,13 @@ const Programs = (props) => {
                 <li>Presently Masjid Sahabah arranges Huffaz for Taraweeh during Ramadan</li>
                 <li>Daily Hadith session for men</li>
                 <li>Weekly Hadith session for women</li>
+                <li>Weekly sirah session</li>
+                <li>Weekly sessions of lives of Sahabah (companions of the Prophet)</li>
+                <li>Weekly sessions on pillars of Islam </li>
                 <li>Separate weekly Islamic teaching for girls and boys</li>
                 <li>Weekly Dawah program</li>
-                <li>Islamic Counselling</li>  
+                <li>Islamic Counselling</li> 
+                <li>Officiate Islamic marraiges</li> 
             </ul>
         </div>
         </div>

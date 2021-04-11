@@ -6,13 +6,14 @@ import Location from "./Location";
 import Future from "./Future";
 import Lectures from "./Lectures";
 import Programs from "./Programs";
+import Activities from "./Activities";
 
 
 const Home = (props) => {
 
     return(
     <MainContainer>
-        <div className="section">
+{/*         <div className="section">
             <h3 className="section-header">Assalaamualaikum WRWB</h3>
             <h6>Ahlan wa sahlan!!!</h6> Alhamdulillah daily and Juma'a (@ 1:30pm all year) salaats are performed here.
                     <p/>
@@ -20,9 +21,10 @@ const Home = (props) => {
                             href="http://www.chicagohilal.org" target="_chicagohilal">www.chicagohilal.org</a>).</p>
                     <p/>
                     <p>JazakAllahu Khayran</p>
-        </div> 
-        <Future />
+        </div>  */}
         <Announcements />
+        <Future />
+        <Activities />
         <ExternalAnnouncements />
         <Lectures />
         <Programs />
