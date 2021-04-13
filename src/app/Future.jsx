@@ -8,7 +8,7 @@ const Future = (props) => {
 
     return(
         <div className="section">
-            <h3 className="section-header">Future Plans</h3>
+            <h3 className="section-header">Current Masjid Expansion In-Prgress</h3>
             <div className="future-carousel-body-content">
                     <Carousel className="future-carousel">
                         <Carousel.Item>
@@ -57,7 +57,7 @@ const Future = (props) => {
                 <h6>Current status</h6> 
                 <ul>
                     <li>Alhamdulillah, land purchase is complete and City Council approval has been received.</li>    
-                    <li>Architectural and design process is in progress. Inshallah ground breaking will happen later in 2021</li>
+                    <li>Architectural and design process is in progress. Inshallah ground breaking will begin later in 2021</li>
                 </ul>
 			</div>           
         </div>
