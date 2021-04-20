@@ -42,6 +42,25 @@ const Announcements = (props) => {
                            data-tweet-limit="1">
                             Tweets by @sahabahservices</a>
                     </div>
+
+<Accordion defaultActiveKey="0">
+  <Card>
+    <Accordion.Toggle as={Card.Header} eventKey="1" className="non-header">
+      View Past tweets
+    </Accordion.Toggle>
+    <Accordion.Collapse eventKey="1">
+      <Card.Body>
+        <div>
+            <a className="twitter-timeline" data-width="50%" data-height="200px" data-chrome="nofooter noheader"
+                href="https://twitter.com/sahabahservices"
+                data-tweet-limit="5">
+                Tweets by @sahabahservices</a>
+        </div>
+
+      </Card.Body>
+    </Accordion.Collapse>
+  </Card>
+</Accordion>                  
         </div>
     );
 };

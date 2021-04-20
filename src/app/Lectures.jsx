@@ -3,7 +3,7 @@ import React from "react";
 const Lectures = (props) => {
     return(
         <div className="section">
-            <h3 className="section-header">Lectures</h3>
+            <h3 className="section-header">Juma'a Khutbah</h3>
             <div id="lectures" className="youtube-div">
                 <iframe className="youtube-iframe"
                     src="https://www.youtube.com/embed/TLeXJ-kw6JY" 

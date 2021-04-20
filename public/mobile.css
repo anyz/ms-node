@@ -24,6 +24,11 @@
     font-size: 18px;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff !important; 
+    font-size: 1rem !important;
+}
+
 .nav-link>a:hover{
 	color: #ffffff !important;
 	background: #575858;
@@ -100,5 +105,28 @@ body{
 }
 .twitter-timeline {
     width: 100vw !important;
+}
+
+.special-button {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 10px !important;
+    border-top-left-radius: 1.9rem !important;
+    border-top-right-radius: 1.9rem !important;
+    border-bottom-right-radius: 1.9rem !important;
+    border-bottom-left-radius: 1.9rem !important;
+}
+.funraising-text {
+    color: #7a0000 !important;
+    font-size: 13px !important;
+}
+.non-header {
+    color: #3c7cde !important;
+    font-size: 11px !important;
+}
+dl, ol, ul {
+    margin-top: 0 !important;
+    margin-bottom: 0rem !important;
 }
 @import "~bootstrap/scss/bootstrap";

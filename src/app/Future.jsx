@@ -8,7 +8,7 @@ const Future = (props) => {
 
     return(
         <div className="section">
-            <h3 className="section-header">Current Masjid Expansion In-Prgress</h3>
+            <h3 className="section-header">Current Masjid Expansion</h3>
             <div className="future-carousel-body-content">
                     <Carousel className="future-carousel">
                         <Carousel.Item>
@@ -38,7 +38,7 @@ const Future = (props) => {
                     </Carousel>
             </div>
             <p></p>
-            <h6>Future Programs</h6>
+            <h6>Growing Community</h6>
             
             <p>The Muslim community has increased tremendously in 
                 the recent times due to which the following needs are required</p>

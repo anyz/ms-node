@@ -21,22 +21,24 @@ const PlainContainer = (props) => {
                 </Col>
             </Row>            
             </div>
-
-                <Navbar collapseOnSelect bg="dark" expand="lg" sticky="top">
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+                <Navbar.Brand>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"
+                            className="donateForm">
+                        <input type="hidden" name="cmd" value="_s-xclick"/>
+                        <input type="hidden" name="hosted_button_id" value="NWWTRPY5NF8T8"/>
+                        <input type="submit" name="submit" value="Donate Now!" alt="Donate Now"
+                                className="btn btn-danger glow-button"/>
+                    </form>         
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-
-                    <Nav fill className="mr-auto">
-                        <Nav.Item className="nav-link">
-                            <Nav.Link href="/" eventKey="1">Home</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item className="nav-link">                                    
-                            <Nav.Link href="/donate" eventKey="2">Donations</Nav.Link>
-                        </Nav.Item>
-                    </Nav>
-
-                </Navbar.Collapse> 
-                </Navbar> 
+                <Nav className="mr-auto">
+                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="/donate">Donations</Nav.Link>
+                </Nav>
+                </Navbar.Collapse>
+            </Navbar> 
 
         </div>
             <Jumbotron>
