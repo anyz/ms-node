@@ -22,7 +22,7 @@ const PlainContainer = (props) => {
             </Row>            
             </div>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand>
+{/*                 <Navbar.Brand>
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"
                             className="donateForm">
                         <input type="hidden" name="cmd" value="_s-xclick"/>
@@ -30,7 +30,7 @@ const PlainContainer = (props) => {
                         <input type="submit" name="submit" value="Donate Now!" alt="Donate Now"
                                 className="btn btn-danger glow-button"/>
                     </form>         
-                </Navbar.Brand>
+                </Navbar.Brand> */}
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">

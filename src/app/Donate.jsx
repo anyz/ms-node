@@ -22,7 +22,7 @@ const Donate = (props) => {
                     className="donateForm">
                 <input type="hidden" name="cmd" value="_s-xclick"/>
                 <input type="hidden" name="hosted_button_id" value="NWWTRPY5NF8T8"/>
-                <input type="submit" name="submit" value="Donate Now!" alt="Donate Now"
+                <input type="submit" name="submit" value="Donate Thru PayPal" alt="Donate Thru PayPal"
                         className="btn btn-danger glow-button"/>
             </form> 
         </Card.Body>
