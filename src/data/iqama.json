@@ -134,11 +134,11 @@
          "halfCounter":"1",
          "times":[  
             {  
-               "fajar":"04:00 AM",
+               "fajar":"05:00 AM",
                "zohar":"01:30 PM",
                "asar":"06:45 PM",
                "magrib":"Sunset +5min",
-               "isha":"11:00 PM"
+               "isha":"10:40 PM"
             }
          ]
       },
@@ -147,7 +147,7 @@
          "halfCounter":"2",
          "times":[  
             {  
-               "fajar":"04:00 AM",
+               "fajar":"05:00 AM",
                "zohar":"01:30 PM",
                "asar":"06:45 PM",
                "magrib":"Sunset +5min",
@@ -164,7 +164,7 @@
                "zohar":"01:30 PM",
                "asar":"06:45 PM",
                "magrib":"Sunset +5min",
-               "isha":"11:00 PM"
+               "isha":"10:40 PM"
             }
          ]
       },
@@ -173,11 +173,11 @@
          "halfCounter":"2",
          "times":[  
             {  
-               "fajar":"05:15 AM",
+               "fajar":"05:30 AM",
                "zohar":"01:30 PM",
-               "asar":"06:45 PM",
+               "asar":"06:30 PM",
                "magrib":"Sunset +5min",
-               "isha":"10:45 PM"
+               "isha":"10:30 PM"
             }
          ]
       },
@@ -190,7 +190,7 @@
                "zohar":"01:30 PM",
                "asar":"06:30 PM",
                "magrib":"Sunset +5min",
-               "isha":"10:30 PM"
+               "isha":"10:15 PM"
             }
          ]
       },
@@ -203,7 +203,7 @@
                "zohar":"01:30 PM",
                "asar":"06:15 PM",
                "magrib":"Sunset +5min",
-               "isha":"10:00 PM"
+               "isha":"09:45 PM"
             }
          ]
       },
@@ -212,7 +212,7 @@
          "halfCounter":"1",
          "times":[  
             {  
-               "fajar":"06:15 AM",
+               "fajar":"06:00 AM",
                "zohar":"01:30 PM",
                "asar":"06:00 PM",
                "magrib":"Sunset +5min",
@@ -240,9 +240,9 @@
             {  
                "fajar":"06:30 AM",
                "zohar":"01:30 PM",
-               "asar":"05:45 PM",
+               "asar":"05:15 PM",
                "magrib":"Sunset +5min",
-               "isha":"09:00 PM"
+               "isha":"08:15 PM"
             }
          ]
       },
@@ -251,11 +251,11 @@
          "halfCounter":"2",
          "times":[  
             {  
-               "fajar":"",
-               "zohar":"",
-               "asar":"",
+               "fajar":"06:30 AM",
+               "zohar":"01:30 PM",
+               "asar":"05:00 PM",
                "magrib":"Sunset +5min",
-               "isha":""
+               "isha":"08:00 PM"
             }
          ]
       },
@@ -264,11 +264,11 @@
          "halfCounter":"1",
          "times":[  
             {  
-               "fajar":"",
-               "zohar":"",
-               "asar":"",
+               "fajar":"06:30 AM",
+               "zohar":"01:30 PM",
+               "asar":"04:30 PM",
                "magrib":"Sunset +5min",
-               "isha":""
+               "isha":"07:30 PM"
             }
          ]
       },
@@ -277,11 +277,11 @@
          "halfCounter":"2",
          "times":[  
             {  
-               "fajar":"",
-               "zohar":"",
-               "asar":"",
+               "fajar":"06:30 AM",
+               "zohar":"01:30 PM",
+               "asar":"03:15 PM",
                "magrib":"Sunset +5min",
-               "isha":""
+               "isha":"08:00 PM"
             }
          ]
       },
@@ -290,11 +290,11 @@
          "halfCounter":"1",
          "times":[  
             {  
-               "fajar":"",
-               "zohar":"",
-               "asar":"",
+               "fajar":"06:30 AM",
+               "zohar":"01:30 PM",
+               "asar":"03:15 PM",
                "magrib":"Sunset +5min",
-               "isha":""
+               "isha":"08:00 PM"
             }
          ]
       },
@@ -303,11 +303,11 @@
          "halfCounter":"2",
          "times":[  
             {  
-               "fajar":"",
-               "zohar":"",
-               "asar":"",
+               "fajar":"06:30 AM",
+               "zohar":"01:30 PM",
+               "asar":"03:15 PM",
                "magrib":"Sunset +5min",
-               "isha":""
+               "isha":"08:00 PM"
             }
          ]
       }

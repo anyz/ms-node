@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import MainContainer from "../app/layout/MainContainer";
 import Announcements from "./Announcements";
 import ExternalAnnouncements from "./ExternalAnnouncements";
@@ -7,6 +7,7 @@ import Future from "./Future";
 import Lectures from "./Lectures";
 import Programs from "./Programs";
 import Activities from "./Activities";
+
 
 import {
     Button, Row, Col
@@ -17,9 +18,10 @@ const Home = (props) => {
 
     return(
     <MainContainer>
+        <Suspense fallback={<div>Loading...</div>}></Suspense>
 
     <Row>
-        <Col className="funraising-text">Please join our Ramadan Fund Raising Event and share with your friends and family...</Col>
+        <Col className="funraising-text">Please join our Online Fund Raising Event and share with your friends and family...</Col>
     </Row>
         <p>
             

@@ -14,8 +14,9 @@ ReactDOM.render(
         <Switch>
 
           <Route exact path="/" component={Home} />
-          <Route exact path="/donate" component={Donate} />
           <Route exact path="/quiz" component={Quiz} />
+          <Route exact path="/donate" component={Donate} />
+          
            
         </Switch>
       </BrowserRouter>
