@@ -13,8 +13,19 @@ const Activities = (props) => {
     return(
         <div className="section">
             <h3 className="section-header">Activities</h3>
-            <h6>Eid Drive thru party</h6>
-            <div className="future-carousel-body-content">
+            <h6>Masjid Sahabah Eid-Ul-Fitr 2021</h6>
+            <div className="section">
+                <div id="eid2021" className="youtube-div">
+                    <iframe className="youtube-iframe"
+                        src="https://www.youtube.com/embed/JMFn2ImU0tQ" 
+                        title="Eid-UlFitr 2021" 
+                        frameBorder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowFullScreen></iframe>
+                        
+                </div>
+            </div>            
+{/*             <div className="future-carousel-body-content">
                     <Carousel className="future-carousel">
                         <Carousel.Item>
                             <Image src="images/eid_drive/1.jpg" alt="Masjid Sahabah" style={imageWidth}/>
@@ -38,7 +49,7 @@ const Activities = (props) => {
                             <Image src="images/eid_drive/13.jpg" alt="Masjid Sahabah"  style={imageWidth}/>
                         </Carousel.Item>
                     </Carousel>
-            </div> 
+            </div>  */}
             <p />      
 
             <h6>Eid Favors</h6>

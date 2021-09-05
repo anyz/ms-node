@@ -6,7 +6,7 @@ import { processIqama } from "../app/Functions";
 import { currentMonth } from "../app/Functions";
 
 import {
-    Table, Accordion, Card, Button
+    Table, Accordion, Card
     } from 'react-bootstrap';
 
 const Announcements = (props) => {
@@ -31,9 +31,11 @@ const Announcements = (props) => {
                             {itimes.map((itime, index) =>  <Iqama key={index} iqamaRow={itime}/> )}
                         </tbody>
                     </Table>
-
                     <p>
-                        For monthly calander please visit: <a href="https://www.islamicfinder.org/prayer-times/#monthly" target='_blank'>Monthly Calander</a>
+                        <strong>Jum'a: 1:30PM (all year)</strong>
+                    </p>
+                    <p>
+                        For monthly calander please visit: <a href="https://www.islamicfinder.org/prayer-times/#monthly" target='_blank' rel="noreferrer">Monthly Calander</a>
                     </p>
 
                     <div id="twitterfeed">
