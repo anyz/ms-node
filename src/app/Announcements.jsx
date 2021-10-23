@@ -32,7 +32,7 @@ const Announcements = (props) => {
                         </tbody>
                     </Table>
                     <p>
-                        <strong>Jum'a: 1:30PM (all year)</strong>
+                        <strong>Jum'a - 1:30PM (all year)</strong>
                     </p>
                     <p>
                         For monthly calander please visit: <a href="https://www.islamicfinder.org/prayer-times/#monthly" target='_blank' rel="noreferrer">Monthly Calander</a>
