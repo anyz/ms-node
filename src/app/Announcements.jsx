@@ -1,7 +1,7 @@
 import React from "react";
 import Iqama from "./Iqama";
 import iqamaTimes from '../.../../data/iqama.json';
-import { processIqama } from "../app/Functions";
+import { processIqamaNew } from "../app/Functions";
 
 import { currentMonth } from "../app/Functions";
 
@@ -11,7 +11,7 @@ import {
 
 const Announcements = (props) => {
 
-    const itimes = processIqama([...iqamaTimes]);
+    const itimes = processIqamaNew([...iqamaTimes]);
     return(
         <div className="section">
             <h3 className="section-header">Announcements</h3>

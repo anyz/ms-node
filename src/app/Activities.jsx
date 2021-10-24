@@ -1,14 +1,6 @@
 import React from "react";
 
-import {
-    Image, Carousel
-    } from 'react-bootstrap';
-
 const Activities = (props) => {
-    const imageWidth = {
-        width: "350px",
-        height: "260px"
-    };
 
     return(
         <div className="section">

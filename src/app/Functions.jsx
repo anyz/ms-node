@@ -64,6 +64,32 @@ export const processIqama = (array) => {
     return timeArr;
 };
 
+export const processIqamaNew = (array) => {
+
+    var todaysDate = new Date();
+	var date = moment(todaysDate);
+    var currentMonth = date.format('MM').toLocaleString();
+    var currentDay = date.format('DD').toLocaleString();
+
+    var timeArr = [];
+    var firstIndex = 0;
+
+    forEach(array, (el) => {
+        if(el.monthCounter === currentMonth && Number(el.start) <= Number(currentDay) && Number(el.end) >= Number(currentDay)) {
+            var firstDate = moment(new Date(todaysDate.getFullYear(), Number(el.monthCounter)-1, Number(el.start)));
+            firstIndex = Number(el.index);
+            timeArr.push({ value: prepareRow(el.times[0], firstDate.format('MM-DD-yyyy').toLocaleString())});
+        }
+    });
+    forEach(array, (el) => {
+        if(Number(el.index) === firstIndex+1) {
+            var firstDate = moment(new Date(todaysDate.getFullYear(), Number(el.monthCounter)-1, Number(el.start)));
+            timeArr.push({ value: prepareRow(el.times[0], firstDate.format('MM-DD-yyyy').toLocaleString())});
+        }
+    });    
+    return timeArr;
+};
+
 export const prepareRow = (obj, labelDate) => {
     obj.id = uniqueId('input-'+labelDate);
     obj.labelDate = labelDate;
