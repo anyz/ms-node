@@ -9,7 +9,7 @@
             {  
                "fajar":"06:30 AM",
                "zohar":"01:30 PM",
-               "asar":"04:00 PM",
+               "asar":"03:30 PM",
                "magrib":"Sunset +5min",
                "isha":"08:30 PM"
             }
@@ -41,9 +41,9 @@
             {  
                "fajar":"06:30 AM",
                "zohar":"01:30 PM",
-               "asar":"04:30 PM",
+               "asar":"04:15 PM",
                "magrib":"Sunset +5min",
-               "isha":"08:30 PM"
+               "isha":"08:00 PM"
             }
          ]
       },
@@ -59,23 +59,39 @@
                "zohar":"01:30 PM",
                "asar":"04:30 PM",
                "magrib":"Sunset +5min",
-               "isha":"08:30 PM"
+               "isha":"08:00 PM"
             }
          ]
       },
       {  
          "monthCounter":"03",
          "start": 1,
-         "end": 15,
+         "end": 13,
          "index": "5",
          "halfCounter":"1",
          "times":[  
             {  
                "fajar":"06:00 AM",
                "zohar":"01:30 PM",
-               "asar":"05:00 PM",
+               "asar":"04:45 PM",
                "magrib":"Sunset +5min",
-               "isha":"08:30 PM"
+               "isha":"08:00 PM"
+            }
+         ]
+      },
+      {  
+         "monthCounter":"03",
+         "start": 14,
+         "end": 15,
+         "index": "6",
+         "halfCounter":"2",
+         "times":[  
+            {  
+               "fajar":"06:30 AM",
+               "zohar":"01:30 PM",
+               "asar":"05:45 PM",
+               "magrib":"Sunset +5min",
+               "isha":"08:45 PM"
             }
          ]
       },
@@ -83,23 +99,23 @@
          "monthCounter":"03",
          "start": 16,
          "end": 31,
-         "index": "6",
+         "index": "7",
          "halfCounter":"2",
          "times":[  
             {  
                "fajar":"06:30 AM",
                "zohar":"01:30 PM",
-               "asar":"06:00 PM",
+               "asar":"06:45 PM",
                "magrib":"Sunset +5min",
                "isha":"09:00 PM"
             }
          ]
-      },
+      },      
       {  
          "monthCounter":"04",
          "start": 1,
          "end": 15,
-         "index": "7",
+         "index": "8",
          "halfCounter":"1",
          "times":[  
             {  
@@ -115,11 +131,11 @@
          "monthCounter":"04",
          "start": 16,
          "end": 30,
-         "index": "8",
+         "index": "9",
          "halfCounter":"2",
          "times":[  
             {  
-               "fajar":"05:30 AM",
+               "fajar":"05:45 AM",
                "zohar":"01:30 PM",
                "asar":"06:15 PM",
                "magrib":"Sunset +5min",
@@ -131,15 +147,15 @@
          "monthCounter":"05",
          "start": 1,
          "end": 15,
-         "index": "9",
+         "index": "10",
          "halfCounter":"1",
          "times":[  
             {  
-               "fajar":"05:00 AM",
+               "fajar":"05:30 AM",
                "zohar":"01:30 PM",
                "asar":"06:30 PM",
                "magrib":"Sunset +5min",
-               "isha":"10:00 PM"
+               "isha":"10:15 PM"
             }
          ]
       },
@@ -147,13 +163,13 @@
          "monthCounter":"05",
          "start": 16,
          "end": 31,
-         "index": "10",
+         "index": "11",
          "halfCounter":"2",
          "times":[  
             {  
                "fajar":"05:15 AM",
                "zohar":"01:30 PM",
-               "asar":"06:45 PM",
+               "asar":"06:30 PM",
                "magrib":"Sunset +5min",
                "isha":"10:30 PM"
             }
@@ -163,7 +179,7 @@
          "monthCounter":"06",
          "start": 1,
          "end": 15,
-         "index": "11",
+         "index": "12",
          "halfCounter":"1",
          "times":[  
             {  
@@ -179,7 +195,7 @@
          "monthCounter":"06",
          "start": 16,
          "end": 30,
-         "index": "12",
+         "index": "13",
          "halfCounter":"2",
          "times":[  
             {  
@@ -195,7 +211,7 @@
          "monthCounter":"07",
          "start": 1,
          "end": 15,
-         "index": "13",
+         "index": "14",
          "halfCounter":"1",
          "times":[  
             {  
@@ -211,7 +227,7 @@
          "monthCounter":"07",
          "start": 16,
          "end": 31,
-         "index": "14",
+         "index": "15",
          "halfCounter":"2",
          "times":[  
             {  
@@ -227,7 +243,7 @@
          "monthCounter":"08",
          "start": 1,
          "end": 15,
-         "index": "15",
+         "index": "16",
          "halfCounter":"1",
          "times":[  
             {  
@@ -243,7 +259,7 @@
          "monthCounter":"08",
          "start": 16,
          "end": 31,
-         "index": "16",
+         "index": "17",
          "halfCounter":"2",
          "times":[  
             {  
@@ -259,7 +275,7 @@
          "monthCounter":"09",
          "start": 1,
          "end": 15,
-         "index": "17",
+         "index": "18",
          "halfCounter":"1",
          "times":[  
             {  
@@ -275,7 +291,7 @@
          "monthCounter":"09",
          "start": 16,
          "end": 30,
-         "index": "18",
+         "index": "19",
          "halfCounter":"2",
          "times":[  
             {  
@@ -291,7 +307,7 @@
          "monthCounter":"10",
          "start": 1,
          "end": 15,
-         "index": "19",
+         "index": "20",
          "halfCounter":"1",
          "times":[  
             {  
@@ -307,7 +323,7 @@
          "monthCounter":"10",
          "start": 16,
          "end": 31,
-         "index": "20",
+         "index": "21",
          "halfCounter":"2",
          "times":[  
             {  
@@ -323,7 +339,7 @@
          "monthCounter":"11",
          "start": 1,
          "end": 6,
-         "index": "21",
+         "index": "22",
          "halfCounter":"1",
          "times":[  
             {  
@@ -339,7 +355,7 @@
          "monthCounter":"11",
          "start": 7,
          "end": 15,
-         "index": "22",
+         "index": "23",
          "halfCounter":"2",
          "times":[  
             {  
@@ -355,7 +371,7 @@
          "monthCounter":"11",
          "start": 16,
          "end": 30,
-         "index": "23",
+         "index": "24",
          "halfCounter":"2",
          "times":[  
             {  
@@ -371,7 +387,7 @@
          "monthCounter":"12",
          "start": 1,
          "end": 15,
-         "index": "24",         
+         "index": "25",         
          "halfCounter":"1",
          "times":[  
             {  
@@ -387,7 +403,7 @@
          "monthCounter":"12",
          "start": 16,
          "end": 31,      
-         "index": "25",   
+         "index": "26",   
          "halfCounter":"2",
          "times":[  
             {  
