@@ -6,7 +6,9 @@
     font-size: 1.25rem !important;
     color: #7a0000 !important;
     font-weight: 500 !important;
-    background-color: #eee !important;
+}
+.section {
+    margin-bottom: 45px;
 }
 .white-text {
     color: #ffffff !important;
@@ -22,6 +24,11 @@
     font-size: 18px;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff !important; 
+    font-size: 1rem !important;
+}
+
 .nav-link>a:hover{
 	color: #ffffff !important;
 	background: #575858;
@@ -35,44 +42,20 @@
 .logo-margin {
     display: flex;
     justify-content: center;
+    margin-bottom: 10px !important;
 }
 
 .jumbotron {
 	padding-bottom: 30px !important;
 	padding-top: 20px !important;
 	background-color: #eee !important;
+    margin-bottom: 1rem  !important;
 }
 
 .subheader-carousel {
     height: 100px !important;
 }
 
-.carousel-content {
-    color:black;
-    display:flex;
-    align-items:center;
-}
-.future-carousel {
-    height: 25  0px !important;
-}
-.future-carousel-body-content {
-    width: 80% !important;
-}
-.future-carousel-body {
-    display: flex !important;
-    justify-content: center !important;
-}
-
-.carousel-indicators {
-    bottom: -40px !important;
-}
-.carousel-control-prev, .carousel-control-next {
-    display: none !important;
-}
-.carousel-indicators li {
-    color: #7a0000 !important;
-    background-color: #7a0000 !important;
-}
 .heading-color{
 	color: #7a0000;
 }
@@ -88,7 +71,7 @@
 
 body{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px !important;
+    font-size: 12px !important;
     line-height: 1.42857143 !important;
     color: #333 !important;
     background-color: #fff !important;
@@ -101,8 +84,49 @@ body{
   padding-right: 15px;
   padding-left: 15px;
   text-align: center;
+  font-size: 0.5rem;
 }
 .main-header{
     height: 100% !important;
+}
+
+.youtube-div {
+    position: relative !important;
+    padding-bottom: 56.25% !important; /* 16:9 */
+    padding-top: 25 !important;
+    height: 0 !important;
+}
+.youtube-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.twitter-timeline {
+    width: 100vw !important;
+}
+
+.special-button {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 10px !important;
+    border-top-left-radius: 1.9rem !important;
+    border-top-right-radius: 1.9rem !important;
+    border-bottom-right-radius: 1.9rem !important;
+    border-bottom-left-radius: 1.9rem !important;
+}
+.funraising-text {
+    color: #7a0000 !important;
+    font-size: 13px !important;
+}
+.non-header {
+    color: #3c7cde !important;
+    font-size: 11px !important;
+}
+dl, ol, ul {
+    margin-top: 0 !important;
+    margin-bottom: 0rem !important;
 }
 @import "~bootstrap/scss/bootstrap";

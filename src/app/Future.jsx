@@ -1,24 +1,16 @@
 import React from "react";
 
 import {
-    Container,
-    Image, Carousel, Card
+    Image, Carousel
     } from 'react-bootstrap';
 
 const Future = (props) => {
 
     return(
-        <Container>
-            <Card>
-                <Card.Header>
-                    Future Plans
-                </Card.Header>
-                <Card.Body className="future-carousel-body">
-                    <div className="future-carousel-body-content">
+        <div className="section">
+            <h3 className="section-header">Current Masjid Expansion</h3>
+            <div className="future-carousel-body-content">
                     <Carousel className="future-carousel">
-                        <Carousel.Item>
-                            <Image src="images/slides/slide1.png" alt="Masjid Sahabah" />
-                        </Carousel.Item>
                         <Carousel.Item>
                             <Image src="images/slides/slide2.png" alt="Masjid Sahabah" />
                         </Carousel.Item>
@@ -44,10 +36,31 @@ const Future = (props) => {
                             <Image src="images/slides/slide9.png" alt="Masjid Sahabah" />
                         </Carousel.Item>
                     </Carousel>
-                    </div>
-                </Card.Body>
-            </Card>
-        </Container>
+            </div>
+            <p></p>
+            <h6>Growing Community</h6>
+            
+            <p>The Muslim community has increased tremendously in 
+                the recent times due to which the following needs are required</p>
+            <div>
+				<ul>
+					<li>300+ person space for Salaat</li>
+					<li>Ladies space for Salaat (currently not available)</li>
+					<li>Community Event space</li>
+					<li>Wudu Area</li>
+					<li>Islamic Library</li>
+					<li>Activity and Islamic learning space for children</li>
+					<li>Funeral services space</li>
+					<li>Parking Lot</li>  
+				</ul>
+                
+                <h6>Current status</h6> 
+                <ul>
+                    <li>Alhamdulillah, land purchase is complete and City Council approval has been received.</li>    
+                    <li>Architectural and design process is in progress. Inshallah ground breaking will begin later in 2021</li>
+                </ul>
+			</div>           
+        </div>
     );
 };
 

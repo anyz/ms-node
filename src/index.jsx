@@ -1,13 +1,26 @@
 import React from 'react';
-import {render} from 'react-dom';
+import ReactDOM from 'react-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Home from "./app/Home";
+import Donate from "./app/Donate";
+import Quiz from "./app/Quiz";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import router from "./router";
+ReactDOM.render(
+    <React.StrictMode>
 
-render(
-    <>
-        {router}
-    </>,
+      <BrowserRouter>
+        <Switch>
+
+          <Route exact path="/" component={Home} />
+          <Route exact path="/quiz" component={Quiz} />
+          <Route exact path="/donate" component={Donate} />
+          
+           
+        </Switch>
+      </BrowserRouter>
+
+  </React.StrictMode>,
     document.getElementById('root')
 );
