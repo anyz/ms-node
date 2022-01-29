@@ -34,36 +34,6 @@ export const endDate = () => {
     return eDate.format('MM-DD-yyyy').toLocaleString();
 };
 
-export const processIqama = (array) => {
-    var sDate = startDate();
-    var eDate = endDate();
-    var todaysDate = new Date();
-	var date = moment(todaysDate);
-	var firstMonthCounter = date.format('MM').toLocaleString();
-	var firstHalfCounter = "1";
-	var secondMonthCounter=firstMonthCounter;
-	var secondHalfCounter = "2";
-
-    if(todaysDate.getDate() > 15){
-        var newDate = moment(new Date(todaysDate.getFullYear(), todaysDate.getMonth()+1, 1));
-        secondMonthCounter = newDate.format('MM').toLocaleString();
-        firstHalfCounter = "2";
-        secondHalfCounter = "1";
-    }
-   
-    var timeArr = [];
-
-    forEach(array, (el) => {
-        if(el.monthCounter === firstMonthCounter && el.halfCounter === firstHalfCounter){
-            timeArr.push({ value: prepareRow(el.times[0], sDate)});
-        }
-        if(el.monthCounter === secondMonthCounter && el.halfCounter === secondHalfCounter){
-            timeArr.push({ value: prepareRow(el.times[0], eDate)});
-        }
-    });
-    return timeArr;
-};
-
 export const processIqamaNew = (array) => {
 
     var todaysDate = new Date();
@@ -73,6 +43,7 @@ export const processIqamaNew = (array) => {
 
     var timeArr = [];
     var firstIndex = 0;
+    var secondIndex = 0;
 
     forEach(array, (el) => {
         if(el.monthCounter === currentMonth && Number(el.start) <= Number(currentDay) && Number(el.end) >= Number(currentDay)) {
@@ -84,9 +55,16 @@ export const processIqamaNew = (array) => {
     forEach(array, (el) => {
         if(Number(el.index) === firstIndex+1) {
             var firstDate = moment(new Date(todaysDate.getFullYear(), Number(el.monthCounter)-1, Number(el.start)));
+            secondIndex = Number(el.index);
             timeArr.push({ value: prepareRow(el.times[0], firstDate.format('MM-DD-yyyy').toLocaleString())});
         }
-    });    
+    }); 
+    forEach(array, (el) => {
+        if(Number(el.index) === secondIndex+1) {
+            var firstDate = moment(new Date(todaysDate.getFullYear(), Number(el.monthCounter)-1, Number(el.start)));
+             timeArr.push({ value: prepareRow(el.times[0], firstDate.format('MM-DD-yyyy').toLocaleString())});
+        }
+    });       
     return timeArr;
 };
 
