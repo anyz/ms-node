@@ -12,6 +12,7 @@ import Activities from "./Activities";
 import {
     Button, Row, Col
     } from 'react-bootstrap';
+import RamadanEvents from "./RamadanEvents";
 
 
 const Home = (props) => {
@@ -36,6 +37,7 @@ const Home = (props) => {
             href="/donate">Donation Options</Button>
         </p>        
 
+        <RamadanEvents />
         <Announcements />
         <Future />
         <Activities />

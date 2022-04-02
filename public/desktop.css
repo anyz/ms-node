@@ -153,4 +153,62 @@ body{
     font-size: 11px !important;
 }
 
+.ramadan-event-section-header{
+    font-size: 1.25rem !important;
+    color: #c91616 !important;
+    font-weight: 500 !important;
+}
+.ramadan-events-div{
+    text-align: center;
+    font-size: 1rem;
+    margin-left: 0 !important;
+    background-color: #f3f3f3;
+}
+
+.ramadan-events-div 
+.col-6 {
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: rgb(255, 255, 255);
+}
+.ramadan-events-small-text{
+    font-family: monospace, Courier;
+    font-size: 65%;
+}
+
+.ramadan-events-dates{
+    text-align: center;
+    font-size: 1rem;
+    margin-left: 0 !important;
+    background-color: #f3f3f3;
+}
+
+.ramadan-events-dates
+.col-6 {
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #f3f3f3;
+    background-color: #ffffff;
+    padding-left: 0cm !important;
+    padding-right: 0em !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.ramadan-events-dates
+.col-12 {
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #f3f3f3;
+    background-color: #ffffff;
+    padding-left: 0cm !important;
+    padding-right: 0em !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.iftar-dates {
+    font-size: 70%;
+}
+
 @import "~bootstrap/scss/bootstrap";
