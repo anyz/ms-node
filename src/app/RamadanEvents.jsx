@@ -14,33 +14,32 @@ const RamadanEvents = (props) => {
             <div className="row ramadan-events-div">
                 <div className="col-6">
                     <h6>Men</h6>
-                    <span className="ramadan-events-small-text">@Masjid Sahabah
-                    <br /> 14225 University Ave</span>
+                    <span className="ramadan-events-small-text">@Masjid Sahabah</span>
 
                     <div className="row ramadan-events-dates">
                         <div className="col-6 iftar-dates">
-                            Sat Apr 9th
+                            Sat Apr 9
                         </div>
                         <div className="col-6 iftar-dates">
-                            Sun Apr 10th
+                            Sun Apr 10
                         </div>
                         <div className="col-6 iftar-dates">
-                            Fri Apr 15th
+                            Fri Apr 15
                         </div>
                         <div className="col-6 iftar-dates">
-                            Sat Apr 16th
+                            Sat Apr 16
                         </div>
                         <div className="col-6 iftar-dates">
-                            Fri Apr 22nd
+                            Fri Apr 22
                         </div>
                         <div className="col-6 iftar-dates">
-                            Sat Apr 23rd
+                            Sat Apr 23
                         </div>
                         <div className="col-6 iftar-dates">
-                            Fri Apr 29th
+                            Fri Apr 29
                         </div>
                         <div className="col-6 iftar-dates">
-                            Sat Apr 30th
+                            Sat Apr 30
                         </div>                        
                     </div>
 
@@ -48,22 +47,23 @@ const RamadanEvents = (props) => {
                 </div>
                 <div className="col-6">
                     <h6>Women & Kids</h6>
-                    <span className="ramadan-events-small-text">@Ridge Pointe Pavilion 
-                    <br /><a target="_blank" href="https://www.google.com/maps/place/655+SE+Legacy+Pointe+Blvd,+Waukee,+IA+50263/@41.6072467,-93.8419732,17z/data=!4m6!1m3!3m2!1s0x87ec23f2775f9399:0xba197ef0371cabd0!2s655+SE+Legacy+Pointe+Blvd,+Waukee,+IA+50263!3m1!1s0x87ec23f2775f9399:0xba197ef0371cabd0">
-                         655 SE Legacy Pointe Blvd. </a></span>
+                    <span className="ramadan-events-small-text">
+                    <a target="_blank" href="https://www.google.com/maps/place/655+SE+Legacy+Pointe+Blvd,+Waukee,+IA+50263/@41.6072467,-93.8419732,17z/data=!4m6!1m3!3m2!1s0x87ec23f2775f9399:0xba197ef0371cabd0!2s655+SE+Legacy+Pointe+Blvd,+Waukee,+IA+50263!3m1!1s0x87ec23f2775f9399:0xba197ef0371cabd0">
+                        @Ridge Pointe Pavilion 
+                    </a></span>
 
                     <div className="row ramadan-events-dates">
                         <div className="col-12 iftar-dates">
-                            Sun Apr 10th
+                            Sun Apr 10
                         </div>
                         <div className="col-12 iftar-dates">
-                            Fri Apr 15th
+                            Fri Apr 15
                         </div>
                         <div className="col-12 iftar-dates">
-                            Fri Apr 22nd
+                            Fri Apr 22
                         </div>
                         <div className="col-12 iftar-dates">
-                            Fri Apr 29th
+                            Fri Apr 29
                         </div>                                                                        
                     </div>                         
                 </div>
