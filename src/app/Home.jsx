@@ -24,18 +24,20 @@ const Home = (props) => {
     <Row>
         <Col className="funraising-text">Please join our Online Fund Raising Event and share with your friends and family...</Col>
     </Row>
-{/*         <p>
+{/*     <p>
             
-            <Button variant="outline-success" size="lg" className="special-button"
-            href="https://www.launchgood.com/campaign/expanding_the_only_masjid_in_waukee_iowa__masjid_sahabah" 
-            target="_new">Click For Online Fund Raising</Button>
-        </p> */}
+        <Button variant="outline-primary" size="lg" className="special-button"
+        href="/donate">Donation Options</Button>
+    </p>  */}
 
+        
         <p>
-            
-            <Button variant="outline-primary" size="lg" className="special-button"
-            href="/donate">Donation Options</Button>
-        </p>        
+            <Button variant="outline-success" size="lg" className="special-button"
+            href="https://www.launchgood.com/campaign/building_the_first_new_mosque_in_waukee_iowa_usa_1#!" 
+            target="_new">Click For Online Fund Raising</Button>
+        </p> 
+
+       
 
         <RamadanEvents />
         <Announcements />
