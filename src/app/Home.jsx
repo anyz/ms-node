@@ -12,7 +12,6 @@ import Activities from "./Activities";
 import {
     Button, Row, Col
     } from 'react-bootstrap';
-import RamadanEvents from "./RamadanEvents";
 
 
 const Home = (props) => {
@@ -33,13 +32,13 @@ const Home = (props) => {
         
         <p>
             <Button variant="outline-success" size="lg" className="special-button"
-            href="https://www.launchgood.com/campaign/building_the_first_new_mosque_in_waukee_iowa_usa_1#!" 
+            href="https://www.launchgood.com/campaign/expanding_the_only_masjid_in_waukee_iowa__masjid_sahabah"
             target="_new">Click For Online Fund Raising</Button>
         </p> 
 
        
 
-        <RamadanEvents />
+        {/* <RamadanEvents /> */}
         <Announcements />
         <Future />
         <Activities />
