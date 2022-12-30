@@ -1,4 +1,5 @@
 import React from "react";
+import { formatIqamaDate } from "../app/Functions";
 
 const Iqama = (props) => {
     const {iqamaRow} = props;
@@ -6,7 +7,7 @@ const Iqama = (props) => {
     return(
     <>
         <tr>
-            <td>{iqamaRow.value.labelDate}</td>
+            <td>{formatIqamaDate(iqamaRow.value.labelDate)}</td>
             <td>{iqamaRow.value.fajar}</td>
             <td>{iqamaRow.value.zohar}</td>
             <td>{iqamaRow.value.asar}</td>

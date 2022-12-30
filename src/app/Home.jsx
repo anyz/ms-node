@@ -9,9 +9,9 @@ import Programs from "./Programs";
 import Activities from "./Activities";
 
 
-import {
+/* import {
     Button, Row, Col
-    } from 'react-bootstrap';
+    } from 'react-bootstrap'; */
 
 
 const Home = (props) => {

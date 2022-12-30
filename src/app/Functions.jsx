@@ -74,3 +74,7 @@ export const prepareRow = (obj, labelDate) => {
     return obj;
 };
 
+export const formatIqamaDate = (someDate) => {
+    var local = moment(new Date(someDate));
+    return local.format('MMM-DD').toLocaleString();
+};
