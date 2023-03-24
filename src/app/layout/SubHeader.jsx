@@ -25,7 +25,7 @@ const SubHeader = () => {
                             </Carousel.Item>
                             <Carousel.Item>
                                 <h6 className="heading-color">Generation of Islamic Scholars and Huffaz</h6>
-                                <span>Coming very soon the school for boys offering classes of Islamic Studies and Nazera &amp; Hifz</span>
+                                <span>Quran Tafseer every Saturday &amp; Tajweed classes every Wednesday for boys 10 years and older</span>
                             </Carousel.Item>
                         </Carousel>
                     </Col>

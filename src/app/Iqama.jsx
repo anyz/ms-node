@@ -7,7 +7,7 @@ const Iqama = (props) => {
     return(
     <>
         <tr>
-            <td>{formatIqamaDate(iqamaRow.value.labelDate)}</td>
+            <td>{ formatIqamaDate(iqamaRow.value.labelDate) }</td>
             <td>{iqamaRow.value.fajar}</td>
             <td>{iqamaRow.value.zohar}</td>
             <td>{iqamaRow.value.asar}</td>

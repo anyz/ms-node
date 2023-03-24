@@ -66,7 +66,7 @@
       {  
          "monthCounter":"03",
          "start": 1,
-         "end": 13,
+         "end": 11,
          "index": "5",
          "halfCounter":"1",
          "times":[  
@@ -81,7 +81,7 @@
       },
       {  
          "monthCounter":"03",
-         "start": 14,
+         "start": 12,
          "end": 15,
          "index": "6",
          "halfCounter":"2",
@@ -103,11 +103,11 @@
          "halfCounter":"2",
          "times":[  
             {  
-               "fajar":"06:30 AM",
+               "fajar":"06:15 AM",
                "zohar":"01:30 PM",
                "asar":"06:00 PM",
                "magrib":"Sunset +5min",
-               "isha":"09:00 PM"
+               "isha":"09:15 PM"
             }
          ]
       },      
