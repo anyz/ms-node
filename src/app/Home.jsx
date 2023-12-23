@@ -7,6 +7,7 @@ import Future from "./Future";
 import Lectures from "./Lectures";
 import Programs from "./Programs";
 import Activities from "./Activities";
+// import RamadanEvents from "./RamadanEvents";
 
 
 /* import {
@@ -40,11 +41,11 @@ const Home = (props) => {
 
         {/* <RamadanEvents /> */}
         <Announcements />
-        <Future />
+        {/* <Future /> */}
+        <Programs />
         <Activities />
         <ExternalAnnouncements />
         <Lectures />
-        <Programs />
         <Location />
     </MainContainer>
     );

@@ -38,14 +38,14 @@ const Announcements = (props) => {
                         For monthly calander please visit: <a href="https://www.islamicfinder.org/prayer-times/#monthly" target='_blank' rel="noreferrer">Monthly Calander</a>
                     </p>
 
-                    <div id="twitterfeed">
+                    {/* <div id="twitterfeed">
                         <a className="twitter-timeline" data-width="50%" data-height="200px" data-chrome="nofooter noheader"
                            href="https://twitter.com/sahabahservices"
                            data-tweet-limit="1">
                             Tweets by @sahabahservices</a>
-                    </div>
+                    </div> */}
 
-<Accordion defaultActiveKey="0">
+{/* <Accordion defaultActiveKey="0">
   <Card>
     <Accordion.Toggle as={Card.Header} eventKey="1" className="non-header">
       View Past tweets
@@ -60,9 +60,9 @@ const Announcements = (props) => {
         </div>
 
       </Card.Body>
-    </Accordion.Collapse>
+    </Accordion.Collapse> 
   </Card>
-</Accordion>                  
+</Accordion>  */}                
         </div>
     );
 };

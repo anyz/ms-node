@@ -7,9 +7,9 @@ const RamadanEvents = (props) => {
 
     return(
         <div className="section">
-            <h4 className="ramadan-event-section-header">Ramadan Events - 2022</h4>
+            <h4 className="ramadan-event-section-header">Ramadan Events - 2023</h4>
 
-            <h6>Community Iftar</h6>
+            {/* <h6>Community Iftar</h6>
 
             <div className="row ramadan-events-div">
                 <div className="col">
@@ -52,19 +52,23 @@ const RamadanEvents = (props) => {
                         </div>                                                                        
                     </div>                         
                 </div>
-            </div>
+            </div> */}
 
             <p />
             <h6>Quiz competition for adults</h6>
-            <span><a href="/quiz">Questions are available here</a></span>
+            <span><a href="/quiz" target="_blank">Questions are available here</a></span>
 
             <p />
             <h6>Quran competition for kids</h6>
-            <span>Please register your kids to participate</span>
+            <span>Please register your kids to participate... details <a href="https://twitter.com/sahabahservices" target="_blank">@sahabahservices</a></span>
 
             <p />
+            <h6>Sisters' Saturday Halaqah</h6>
+            <span>More details available <a href="https://twitter.com/sahabahservices" target="_blank">@sahabahservices</a></span>
+
+{/*             <p />
             <h6>Henna party for women</h6>
-            <span>Details coming soon...</span>
+            <span>Details coming soon...</span> */}
         </div>    
     );
 };

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Document, Page, pdfjs } from 'react-pdf';
-import quizPDF from "../.../../data/2022_Quiz.pdf";
+import quizPDF from "../.../../data/2023_Quiz.pdf";
 
 
 import {

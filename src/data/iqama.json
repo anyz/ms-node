@@ -66,7 +66,7 @@
       {  
          "monthCounter":"03",
          "start": 1,
-         "end": 11,
+         "end": 9,
          "index": "5",
          "halfCounter":"1",
          "times":[  
@@ -81,7 +81,7 @@
       },
       {  
          "monthCounter":"03",
-         "start": 12,
+         "start": 10,
          "end": 15,
          "index": "6",
          "halfCounter":"2",
@@ -338,7 +338,7 @@
       {  
          "monthCounter":"11",
          "start": 1,
-         "end": 6,
+         "end": 4,
          "index": "22",
          "halfCounter":"1",
          "times":[  
@@ -353,7 +353,7 @@
       },
       {  
          "monthCounter":"11",
-         "start": 7,
+         "start": 5,
          "end": 15,
          "index": "23",
          "halfCounter":"2",
